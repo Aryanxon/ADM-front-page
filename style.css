@@ -20,6 +20,11 @@ body{
   width: 100%;
   z-index: 1;
 }
+.Adm_nav_logo{
+    width: 60px; 
+    height: auto; 
+   
+}
 .bg-light{
     padding: 7px;
 }
@@ -54,8 +59,10 @@ body{
 /* hero Section */
 .hero{
     position: relative;
-    background-image: url(image.png);
+    background-image: url(./Images/image.png);
     background-size: contain;
+    width: 100%;
+    
 }
 .container{
     display: flex;
