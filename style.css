@@ -47,9 +47,11 @@ body{
     text-decoration: underline;
     text-underline-offset: 0.7rem;
 }
-/* hero Section */
+/* navbar ends */
+
+/* hero Section starts*/
 .hero{
-    background-image: url(image.png);
+    background-image: url(./Images/image.png);
     background-size: cover;
 }
 .container{
@@ -92,6 +94,35 @@ body{
 .hero-button:hover{
     background: #00a8b1;
 }
+/* hero Section ends*/
 
-
+/* Upcoming Events start  */
+.main{
+    background-color: yellow; 
+    width: 100%;
+    height: 200px;
+    background-attachment: fixed;
+    padding: 2rem;
+}
+.up_events{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  border-radius: 20px;
+  gap: 0.5rem;
+  margin: 2rem auto;
+  font-size: small;
+}
+.card img{
+  border-radius: 20px;
+}
+#read_more_text_TB{
+  display: none;
+}
+#read_more_text_Eye{
+  display: none;
+}
+/* Upcoming Events ends  */
 

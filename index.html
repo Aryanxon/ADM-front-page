@@ -10,10 +10,11 @@
     <title>ADM</title>
 </head>
 <body>
+  <!-- navbar starts -->
     <nav class="navbar navbar-expand-lg bg-blue">
         <div class="container-fluid">
             <div class='bg-light' style="width: 60px; height: auto; border-radius: 45%; float: inline-start;">
-          <a class="navbar-brand" href="index.html"><img src="adm.png" alt="logo" style="width: 60px; height: auto; border-radius: 45%;"></a>
+          <a class="navbar-brand" href="index.html"><img src="./Images/adm.png" alt="logo" style="width: 60px; height: auto; border-radius: 45%;"></a>
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-2 mb-2 mb-lg-0">
@@ -33,6 +34,8 @@
           </div>
         </div>
       </nav> 
+      <!-- navbar ends -->
+
       <!--hero section start-->
       <section class="hero">
         <div class="container">
@@ -42,10 +45,37 @@
         <button class="hero-button">About the campaign-></button>
         </div>
         <div class="col-lg-4">
-            <img src="adm.png" alt="logo" style="width:100%; height:100%;">
+            <img src="./Images/adm.png" alt="logo" style="width:100%; height:100%;">
             </div>
         </div>
-      </section>   
+      </section>  
+      <!-- hero section end  -->
+
+      <!-- Upcoming Events start -->
+    <div class="main">
+      <h1 class="up_events">Upcomming Events</h1>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="card col-lg-4" style="width: 18rem;">
+                  <img src="./Images/image1.jpeg" alt="Photo1"/>
+                  <div class="card-body">
+                      <h3 class="card-title">TB Awareness Camp</h3>
+                      <p class="card-text">Join us at our TB Awareness Camp, where we aim to raise awareness about Tuberculosis (TB), a serious health concern affecting communities globally. <span id="read_more_text_TB">This informative event provides essential insights into TB prevention, early detection, and available treatments. Our experts will share valuable knowledge, enabling attendees to understand the signs and symptoms, risk factors, and best practices for prevention. Together, let's combat TB and work towards a healthier, TB-free future. <span id="show_less_TB" onclick="handle_show_less_TB()">...show less</span></span><span id="read_more_TB" onclick="handle_read_more_TB()">...read more</span> </p>
+                  </div>
+              </div>
+              <div class="card col-lg-4" style="width: 18rem;">
+                  <img src="./Images/image1.jpeg" alt="Photo1"/>
+                  <div class="card-body">
+                      <h3 class="card-title">Eye Checking Camp</h3>
+                      <p class="card-text">Join us at our Eye Checking Camp, where we provide a comprehensive range of essential services to ensure optimal eye health for all participants.  <span id="read_more_text_Eye">Through our informative eye health education sessions, attendees gain valuable insights into best eye care practices, preventive measures, and early signs of eye-related problems. We also provide eyewear assistance, guiding individuals in selecting suitable eyeglass frames and lenses tailored to their preferences and prescriptions.<span id="show_less_Eye" onclick="handle_show_less_Eye()">...show less</span></span><span id="read_more_Eye" onclick="handle_read_more_Eye()">...read more</span> </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- Upcoming Events ends -->
+
+
 </body>
 
 </html>
