@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -48,7 +47,6 @@ body{
     text-underline-offset: 0.7rem;
 }
 /* navbar ends */
-
 /* hero Section starts*/
 .hero{
     background-image: url(./Images/image.png);
@@ -58,6 +56,9 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 10rem 1rem;
+}
+.text-area{
+    text-align: left;
 }
 .mb-3{
     color: white;
@@ -98,20 +99,17 @@ body{
 
 /* Upcoming Events start  */
 .main{
+    background: linear-gradient(rgb(255, 238, 0) 20%, white 80%);
     width: 100%;
     height: 100%;
-    background-attachment: fixed;
     padding: 2rem;
 }
 .up_events{
   display: flex;
+  color: white;
   align-items: center;
   justify-content: center;
-  background-color: #00a8b1;
-  width: 400px;
-  height: 100px;
   margin: 0 auto;
-  border-radius: 20px;
 }
 .card{
   border-radius: 20px;
@@ -121,11 +119,11 @@ body{
   transition: all 0.4s ease-in-out;
 }
 .card:hover{
-  box-shadow: 0px 2px 15px 0px blue;
+  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.49);
   scale: 1.1;
-
 }
 .card img{
+  padding-top: 10px;
   border-radius: 20px;
 }
 #read_more_text_TB{
@@ -142,42 +140,43 @@ body{
 /* Coursel start */
 #carouselExampleSlidesOnly{
   margin: 2rem 2rem;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 #carouselExampleSlidesOnly img{
-  
-  border-radius: 20px;
+
+  border-radius: 10px;
 }
 /* Coursel end */
 
 /* footer start  */
 footer{
-  background:#0d74ac;
+  background-color:#0d74ac;
   color:white;
-  padding :20px auto;  
+  padding :50px; 
+  margin-bottom: -24px; 
 }
 
 
-footer .social_icon, footer .menu{
+footer.social_icon, footer .menu{
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
   }
-footer .social_icon li, footer .menu{
+footer.social_icon li, footer .menu{
       list-style:none;
   }
-  
-footer .social_icon li a{
+
+.social_icon li a{
       font-size:1.5em;
       color:#fff;
       margin:0 10px;
       transition :0.5s;
   }  
-  footer .social_icon li a:hover{
+  .social_icon li a:hover{
       transform :translateY(-10px);
-      
+
   }
-  footer .menu li a{
+  .menu li a{
       color:#fff;
       margin:0 5px;
       text-decoration:none;
@@ -185,10 +184,155 @@ footer .social_icon li a{
   footer p{
       color:#fff;
       text-align:center;
-      margin-top:15px;
-      margin-bottom:10px;
       font-size:1em;
-      
-  }
+    }
 
 /* footer ends  */
+/* certification form */
+#Registration{
+    background-color: #d6d6e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#registration-form-section {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-right: 2px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 43rem;
+}
+
+#registration-form-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.container {
+    text-align: center;
+}
+.submit-button1 {
+    background-color:#0d74ac;
+    color: #fff;
+    border: none;
+	text-align: center; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button1:hover {
+    background-color:#122a48;
+}
+/*registration form*/
+
+/*certification form*/
+#certificate-form-section {
+    height: 43rem;
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-left: 2px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#certificate-form-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="tel"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.center-container {
+    text-align: center;
+}
+.submit-button {
+    background-color: #0d74ac;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #122a48;
+}
+/* feedback part */
+.custom-carousel-indicators {
+    position: relative;
+    text-align: center;
+}
+.custom-carousel-indicators .indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.custom-carousel-indicators .indicator.active {
+    background-color: #007bff;
+}
+.card {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.card{
+    margin: 1rem auto;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    border-radius: 25px;
+}
+.card.col-lg-3:hover{
+    transform: scale(1.10);
+    background-color: #122a48;
+    box-shadow: 10px 10px 5px rgb(172, 207, 218);
+    transition: all 0.4s ease-in-out;
+    color: white;
+}
+.card.text-center{
+     border-radius: 25px;
+     border: none;
+     background-color: rgb(245, 245, 245);
+     box-shadow: none;
+     width: 80%;
+}
+.card.text-center:hover{
+    transform: scale(1.10);
+    border-radius: 25px;
+    border: none;
+}
+.card.text-center{
+    animation: moveright 1.5s ease-out;
+}
+@keyframes moveright {
+    0% {
+     width: 55rem;
+     font-size: 5px;
+    }
+ }
+ #carouselExampleIndicators{
+    padding: 4rem;
+ }
+ .feedback{
+    background-color: #d6d6e3;
+ }

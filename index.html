@@ -35,7 +35,6 @@
         </div>
       </nav> 
       <!-- navbar ends -->
-
       <!--hero section start-->
       <section class="hero">
         <div class="container">
@@ -53,7 +52,9 @@
 
       <!-- Upcoming Events start -->
       <div class="main">
-        <h1 class="up_events">Upcomming Events</h1>
+        <div class="up_events">
+        <h1 style="font-weight: 800; font-size: 1000;">Upcomming Events</h1>
+        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="card col-lg-4" style="width: 18rem;">
@@ -70,7 +71,7 @@
                         <p class="card-text">Join us at our Eye Checking Camp, where we provide a comprehensive range of essential services to ensure optimal eye health for all participants.</p>
                     </div>
                 </div>
-            
+
                 <div class="card col-lg-4" style="width: 18rem;">
                     <img src="./Images/image1.jpeg" alt="Photo1"/>
                     <div class="card-body">
@@ -108,6 +109,170 @@
   </div>
 </div>
 <!-- Coursel emds -->
+ <!-- Registration form-->
+<div id="Registration">
+	<div class="container-fluid row d-flex justify-content-center">
+    <div class="col-lg-6">
+    <section id="registration-form-section" class="section mt-5">
+    <h2>Registration form</h2>
+    <form id="registration-form" method="POST" action="http://localhost/public/submit.php">
+        <div class="form-group">
+				<label for="your-name">Name:</label>
+				<input type="text" id="your-name" placeholder="John" name="yourName" required />
+			</div>
+
+			<div class="form-group">
+				<label for="school-college">School/College:</label>
+				<input type="text" id="school-college" placeholder="Oxford University" name="schoolCollege" required />
+			</div>
+
+			<div class="form-group">
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city" placeholder="Lucknow" required/>
+			</div>
+
+			<div class="form-group">
+				<label for="state">State:</label>
+				<input type="text" id="state" name="state" placeholder="Uttar Pradesh" required/>
+			</div>
+
+			<div class="form-group">
+				<label for="email">Email ID:</label>
+				<input type="email" id="email" name="email" placeholder="abc@gmail.com" required/>
+			</div>
+			 <div class="center-container">
+        <button type="submit" value="submit" class="submit-button1">Register</button>
+		</div>
+    </form>
+    </section>
+    </div>
+  
+<!--certification form-->
+    <!-- certification form-->
+    
+ <div class="col-lg-6">
+    <section id="certificate-form-section" class="section mt-5">
+    <h2>Request a Certificate</h2>
+    <form id="certificate-form" method="POST" action="http://localhost/public/login.php">
+        <div class="form-group">
+            <label for="your-name">Name:</label>
+            <input type="text" id="your-name" placeholder="John" name="yourName" required/>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" placeholder="abc@gmail.com" name="email" required/>
+          </div>
+          
+          <div class="form-group">
+            <label for="school-college">School/College:</label>
+            <input type="text" id="school-college" placeholder="Oxford University" name="schoolCollege" required/>
+        </div>
+        <div class="form-group">
+            <label for="city">Date of Seminar:</label>
+            <input type="date" id="city" name="city" placeholder="dd/mm/yyyy" required/>
+        </div>
+        <div class="form-group">
+            <label for="registration-no">Registration No:</label>
+            <input type="text" id="registration-no" placeholder="000121" name="registrationNo" required/>
+        </div>
+		 <div class="center-container">
+        <button type="submit"  class="submit-button">Get your Certificate</button>
+		</div>
+    </form>
+    </section>
+  </div>
+</div>
+</div>
+
+
+<!--certification form-->
+    <!--feedback part-->
+    <section class="feedback">
+<div class="container-fluid my-5" id="feedback">
+        <h5 class="text-center">Feedbacks from our students</h5>
+        
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slides" data-bs-ride="carousel" data-bs-touch="true">
+            <div class="carousel-inner"><!--1 FEEDBACK-->
+                <div class="carousel-item c-item active">
+                    <div class="row justify-content-center ">
+                        <div class="col-lg-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-user"></i> Rishabh</h5>
+                                    <p class="card-text">This webinar was amazing!</p>
+                                    <p class="card-text">Rating: 
+                                        <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="carousel-item c-item"><!--2 FEEDBACK-->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-user"></i> Shagun</h5>
+                                    <p class="card-text">Great content and knowledgeable speakers.</p>
+                                    <p class="card-text">Rating: 
+                                        <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item c-item"><!--3 FEEDBACK-->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-user"></i> Himanshu</h5>
+                                    <p class="card-text">Enjoyed every bit of it.</p>
+                                    <p class="card-text">Rating: 
+                                        <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item c-item"><!--4 FEEDBACK-->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-user"></i> Hitesh</h5>
+                                    <p class="card-text">Could be more interactive, but still great.</p>
+                                    <p class="card-text">Rating: 
+                                        <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item c-item"><!--5 FEEDBACK-->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-user"></i> Anchit</h5>
+                                    <p class="card-text">Excellent presentation and materials.</p>
+                                    <p class="card-text">Rating: 
+                                        <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
 <!-- footer starts -->
 <footer>
@@ -149,7 +314,6 @@
   <p>ADM Society | All Rights Reserved </p>
 </div>
 </div>
-
 </footer>
 <!-- footer ends -->
 
